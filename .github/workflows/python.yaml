@@ -33,6 +33,7 @@ jobs:
 
       - name: Install dependencies
         run: |
+          ls -l
           pip install -r ./src/requirement.txt
 
       - name: Run the Python application

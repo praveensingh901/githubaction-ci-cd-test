@@ -31,10 +31,9 @@ jobs:
       #   with:
       #     python-version: '3.12.3'  # Change to your required Python version
 
-      # - name: Install dependencies
-      #   run: |
-      #     ls -l
-      #     pip install -r ./src/Requirement.txt
+      - name: Install dependencies
+        run: |
+          ls -l
 
       # - name: Set up Docker
       #   uses: docker/setup-docker-action@v4          
